@@ -6,7 +6,7 @@ This course focusing on how to deploy Java/Angular using AWS cloud services.
 
 You may find descroption of each individual Lab/Homeowork below.
 
-#Lab1
+# Lab1
 
 1. Download  Patient , PatientGUI and TestPatient classes
 2. Make it running and make sure that it creates the output file with Patient oblect.
@@ -23,61 +23,61 @@ b. Patient's object should have at least 5.
 c. Replace the Patient's id textbox with drop down.
 d. Add Exit button.
 
-#Lab2 
+# Lab2 
 
 Attach CRUD for Student(model,service and controller)
 
 Attach screen shots of postman for the CRUD operations.
 
-#Lab3
+# Lab3
 
 Submit the Student project (zip  it and submit)
 
 Summit the screen shot of postman response and Student table
 
-#Lab4
+# Lab4
 
 Submit  the zipped version of the routerdemo angular project.
 
 Submit the screen shot of the Login, profile,and Register.
 
-#Lab5
+# Lab5
 
 Upload the zipped version of your project.
 
 Attach the screen shot of the profile page with logged in user Id
 
-#Lab6
+# Lab6
 
 T0DO
 
-#Lab7
+# Lab7
 
 Continue Angular and fecthing (Lesson) and make it display on Angular UI
 
-#Lab8
+# Lab8
 
 AWS CloudFront: Distrubution 
 
 Link : http://d3f9wern2az7gn.cloudfront.net
 
-#Lab9 
+# Lab9 
 
 AWS Beanstalk
 
 Link : http://blackboardbackend-env.eba-sznbzsng.us-east-1.elasticbeanstalk.com
 
-#Lab10 
+# Lab10 
 
 Submit the Maven project with TestNG and RestAssured.
 
 Attach screenshots that show the test results
 
-#Lab11 
+# Lab11 
 
 AWS Heroku deployment URL
 
-#HW1
+# HW1
 
 Create CRUD operations for  accessing Patients' data.
 Patient class should have name, id, gender, illness
@@ -87,7 +87,7 @@ UPDATE operation should update the Patient's information based on id (api/vi/pat
 DELETE operation should delete Patient based on id
 Bonus: Another GET operation  should get the names of all the patients that have the illness sent in the url.  (api/v1/patients/{illness})
 
-#HW2
+# HW2
 
 Part 1:
 
@@ -130,7 +130,7 @@ Part 2:
        Implement Homework 1 CRUD operation with mysql.
        Zip up the project and upload along with the screen shots of mysql query editor and the postman for all the CRUD operations .
 
-#HW3
+# HW3
 
 Make sure lab 5 is up and running. Add the following functionality
 
@@ -140,7 +140,7 @@ Modify the code in profile controller(profile.component.ts)  to return user obje
 
 Modify profile.component.html to display the name of the user corresponding to the userId in the url path.
 
-#HW4
+# HW4
 
 Use the EMPLOYEE CRUD you created  for midterm.
 
