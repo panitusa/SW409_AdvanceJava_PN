@@ -14,7 +14,7 @@ export class BlackboardNavigatorComponent implements OnInit {
     module: [],
   };
   selecteModule = {
-    lesson: []
+    lesson: [],
   };
 
   ngOnInit(): void {
@@ -22,7 +22,7 @@ export class BlackboardNavigatorComponent implements OnInit {
       .then(course => this.courses = course);
   }
 
-  selectCourse(course: never) {
+  selectCourse(course: any) {
     this.selectedCourse = course;
   }
 

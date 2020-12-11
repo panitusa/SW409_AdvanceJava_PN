@@ -6,12 +6,12 @@
       <li class="list-group-item active">
         Course
       </li>
-      <li *ngFor="let course of courses"
+      <!--<li *ngFor="let course of courses"
           (click)="selectCourse(course)"
           [ngClass]="{'active': course.id == selectedCourse.id}"
           class="list-group-item">
         {{course.title}}
-      </li>
+      </li>-->
     </ul>
   </div>
 
@@ -20,12 +20,12 @@
       <li class="list-group-item active">
         Modules
       </li>
-      <li *ngFor="let module of selectedCourse.module"
+ <!--     <li *ngFor="let module of selectedCourse.module"
           (click)="selectModule(module)"
           [ngClass]="{'active': module.id == selectModule.id}"
           class="list-group-item">
         {{module.title}}
-      </li>
+      </li>-->
     </ul>
   </div>
 
@@ -34,12 +34,12 @@
       <li class="list-group-item active">
         Lesson
       </li>
-          <li *ngFor="let module of selectedCourse.module"
+<!--          <li *ngFor="let module of selectedCourse.module"
               (click)="selectModule(module)"
               [ngClass]="{'active': module.id == selectModule.id}"
               class="list-group-item">
             {{module.title}}
-          </li>
+          </li>-->
     </ul>
   </div>
 
